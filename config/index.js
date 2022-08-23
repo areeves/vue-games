@@ -50,7 +50,10 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+
+    // @TODO inject this from github workflow
+    //assetsPublicPath: '/',
+    assetsPublicPath: '/vue-games',
 
     /**
      * Source Maps
